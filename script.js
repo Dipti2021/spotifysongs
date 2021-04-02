@@ -20,10 +20,9 @@ $( document ).ready(function() {
    const accessToken = getUrlParameter('access_token');
 
    // AUTHORIZE with Spotify (if needed)
-   // *************** REPLACE THESE VALUES! *************************
+
    let client_id = '92400bf158ae43a18d7c894f134457d9';
-   // Use the following site to convert your regular url to the encoded version:
-   // https://www.url-encode-decode.com/
+ 
    let redirect_uri = 'https%3A%2F%2Fdipti2021.github.io%2Fspotifysongs'; // GitHub Pages URL or whatever your public url to this app is
    // *************** END *************************
 
