@@ -23,7 +23,7 @@ $( document ).ready(function() {
 
    let client_id = '92400bf158ae43a18d7c894f134457d9';
  
-   let redirect_uri = 'https%3A%2F%2Fdipti2021.github.io%2Fspotifysongs'; // GitHub Pages URL or whatever your public url to this app is
+   let redirect_uri = 'https://github.com/Dipti2021/spotifysongs'; // GitHub Pages URL or whatever your public url to this app is
    // *************** END *************************
 
    const redirect = `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=token&redirect_uri=${redirect_uri}`;
